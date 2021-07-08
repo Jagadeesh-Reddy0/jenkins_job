@@ -1,10 +1,10 @@
 - name: trigger
   hosts: localhost
   vars:
-    Uname: "<<jenkins username>>"
-    Pass: "<<jenkins password>>"
-    HostName: "<<yourip:port>>"
-    TokenName: "<<jenkins token>>"
+    Uname: "Administrator"
+    Pass: "Nani@1162"
+    HostName: "18.119.106.83:8080"
+    TokenName: "118adc848a404d4a7e2445d979c76fe58b"
   tasks:
   - name: Queue build
     uri:
