@@ -10,7 +10,7 @@
     uri:
       url: "http://{{ 18.119.106.83:8080 }}/job/{{ AWX }}/build?token={{ 118adc848a404d4a7e2445d979c76fe58b }}"
       method: POST
-      user: "{{ Uname }}"
-      password: "{{ Pass }}"
+      user: "{{ Administrator }}"
+      password: "{{ Nani@1162 }}"
       force_basic_auth: yes
       status_code: 201
